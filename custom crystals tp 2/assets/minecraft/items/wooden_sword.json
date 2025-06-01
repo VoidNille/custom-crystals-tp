@@ -1,0 +1,36 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      { "threshold": 187208,
+        "model": {
+          "type": "model",
+          "model": "item/crystal_shui"
+        }
+      },
+      { "threshold": 72014,
+        "model": {
+          "type": "model",
+          "model": "item/crystal_huo"
+        }
+      },
+      { "threshold": 24813,
+        "model": {
+          "type": "model",
+          "model": "item/crystal_yin"
+        }
+      },
+      { "threshold": 240136,
+        "model": {
+          "type": "model",
+          "model": "item/crystal_yang"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/wooden_sword"
+    }
+  }
+}
